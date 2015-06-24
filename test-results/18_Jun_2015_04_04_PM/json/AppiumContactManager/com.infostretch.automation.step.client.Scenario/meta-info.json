@@ -1,0 +1,19 @@
+{
+  "methods": [
+    {
+      "name": "Add New Contact",
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "groups": [
+        "SMOKE"
+      ],
+      "dependsOn": [],
+      "desc": "Add Contact and Verify",
+      "startTime": 1434623748161,
+      "duration": 49050,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

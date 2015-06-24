@@ -1,0 +1,73 @@
+15:33:59 scenario.file.loc[Ljava.lang.String;@7c358a80
+15:33:59 loading text file: M:\JenkinsDemo\AppiumContactManagerDemo\AppiumDemoContactManager\.\scenarios\suite1.bdd
+15:33:59 total test found: 1
+15:34:03 
+
+Executing scenario: Add New Contact - Add Contact and Verify
+15:34:03 Invoking Teststep: Given user opens contact manager
+15:34:03 Completed Teststep: Given user opens contact manager
+15:34:03 Invoking Teststep: And open add contact screen
+15:34:30 Completed Teststep: And open add contact screen
+15:34:30 Invoking Teststep: And generate random contact data
+15:34:31 Completed Teststep: And generate random contact data
+15:34:31 Invoking Teststep: And store into new.contact with arguments: [new.contact]
+15:34:31 Completed Teststep: And store into new.contact with arguments: [new.contact]
+15:34:31 Invoking Teststep: When fill contact details form with ${new.contact} with arguments: [${new.contact}]
+15:34:54 Completed Teststep: When fill contact details form with [phone : (577) 088 5424,email : fn6BD@infostretch.com,name : pBhKLe] with arguments: [${new.contact}]
+15:34:54 Invoking Teststep: And click on save button with arguments: [save button]
+15:34:56 Completed Teststep: And click on save button with arguments: [save button]
+15:34:56 Invoking Teststep: Then verify contact ${new.contact} is displayed in list with arguments: [${new.contact}]
+15:35:28 Failure Teststep: Then verify contact [phone : (577) 088 5424,email : fn6BD@infostretch.com,name : pBhKLe] is displayed in list with arguments: [${new.contact}]
+com.infostretch.automation.step.StepInvocationException
+	at .(com.example.android.contactmanager.steps.StepsLibrary:0)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:379)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:453)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:340)
+	at com.infostretch.automation.ui.webdriver.QAFExtendedWebElement.isPresent(SourceFile:305)
+	at com.example.android.contactmanager.steps.StepsLibrary.isContactPresent(StepsLibrary.java:70)
+	at com.example.android.contactmanager.steps.StepsLibrary.verifyContact_aroundBody6(StepsLibrary.java:37)
+	at com.example.android.contactmanager.steps.StepsLibrary$AjcClosure7.run(StepsLibrary.java:1)
+	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+	at com.infostretch.automation.step.JavaStepReporter.javaTestStep(SourceFile:72)
+	at com.example.android.contactmanager.steps.StepsLibrary.verifyContact(StepsLibrary.java:35)
+	at com.example.android.contactmanager.steps.StepsLibrary.verifyContactFromBean_aroundBody4(StepsLibrary.java:31)
+	at com.example.android.contactmanager.steps.StepsLibrary$AjcClosure5.run(StepsLibrary.java:1)
+	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+	at com.infostretch.automation.step.JavaStepReporter.javaTestStep(SourceFile:72)
+	at com.example.android.contactmanager.steps.StepsLibrary.verifyContactFromBean(StepsLibrary.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.infostretch.automation.step.JavaStep.doExecute(SourceFile:103)
+	at com.infostretch.automation.step.BaseTestStep.execute(SourceFile:116)
+	at com.infostretch.automation.step.JavaStep.execute(SourceFile:81)
+	at com.infostretch.automation.step.StringTestStep.execute(SourceFile:93)
+	at com.infostretch.automation.step.client.Scenario.execute(SourceFile:165)
+	at com.infostretch.automation.step.client.Scenario.scenario(SourceFile:212)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(SourceFile:786)
+	at org.testng.TestRunner.run(SourceFile:631)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+15:35:28 Completed Teststep: Then verify contact [phone : (577) 088 5424,email : fn6BD@infostretch.com,name : pBhKLe] is displayed in list with arguments: [${new.contact}]
+15:35:28 Competed scenario: Add New Contact with status FAILURE

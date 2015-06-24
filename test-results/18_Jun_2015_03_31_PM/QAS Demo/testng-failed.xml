@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [QAS Demo]">
+  <test name="Appium Contact Manager(failed)">
+    <classes>
+      <class name="com.infostretch.automation.step.client.Scenario">
+        <methods>
+          <include name="afterClass"/>
+          <include name="setup"/>
+          <include name="afterTest"/>
+          <include name="setupMethod"/>
+          <include name="scenario"/>
+          <include name="afterSuit"/>
+          <include name="setupSuit"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.infostretch.automation.step.client.Scenario -->
+    </classes>
+  </test> <!-- Appium Contact Manager(failed) -->
+</suite> <!-- Failed suite [QAS Demo] -->

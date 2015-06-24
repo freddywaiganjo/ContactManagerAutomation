@@ -1,0 +1,63 @@
+[main] 15:32:20,638 DEBUG [com.infostretch.automation.testng.pro.QAFAnnotationTransformer2] QAFTestNGListener registered!...
+[main] 15:32:20,790 INFO  [com.infostretch.automation.core.ConfigurationManager] ISFW build info: {QAF-Version=2.1, QAF-Revision=5, QAF-Build-Time=05-May-2015 13:16:46, QAF-Type=Pro}
+[main] 15:32:20,863 INFO  [com.infostretch.automation.core.ConfigurationManager] Resource dir: M:\JenkinsDemo\AppiumContactManagerDemo\AppiumDemoContactManager\resources. Found property files to load: 2
+[main] 15:32:20,907 INFO  [com.infostretch.automation.core.ConfigurationManager] Resource dir: M:\JenkinsDemo\AppiumContactManagerDemo\AppiumDemoContactManager\resources. Found property files to load: 1
+[main] 15:32:21,030 DEBUG [org.apache.commons.configuration.ConfigurationUtils] ConfigurationUtils.locate(): base is M:\JenkinsDemo\AppiumContactManagerDemo\AppiumDemoContactManager\resources, name is testdata.xml
+[main] 15:32:21,036 DEBUG [org.apache.commons.configuration.DefaultFileSystem] Could not locate file testdata.xml at M:\JenkinsDemo\AppiumContactManagerDemo\AppiumDemoContactManager\resources: unknown protocol: m
+[main] 15:32:21,038 DEBUG [org.apache.commons.configuration.ConfigurationUtils] Loading configuration from the path M:\JenkinsDemo\AppiumContactManagerDemo\AppiumDemoContactManager\resources\testdata.xml
+[main] 15:32:21,460 DEBUG [com.infostretch.automation.testng.pro.QAFInvokedMethodListener2] QAFTestNGListener registered!...
+[main] 15:32:21,460 DEBUG [com.infostretch.automation.testng.pro.QAFMethodInterceptor] QAFTestNGListener registered!...
+[main] 15:32:21,461 DEBUG [com.infostretch.automation.testng.pro.QAFResultListener] QAFTestNGListener registered!...
+[main] 15:32:21,461 DEBUG [com.infostretch.automation.testng.pro.QAFSuiteListener] QAFTestNGListener registered!...
+[main] 15:32:30,787 DEBUG [com.infostretch.automation.testng.pro.QAFSuiteListener] onstart suite: start
+[main] 15:32:31,606 DEBUG [com.infostretch.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setupSuit
+[main] 15:32:31,613 DEBUG [com.infostretch.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setupSuit - com.infostretch.automation.ui is test:false
+[main] 15:32:31,613 DEBUG [com.infostretch.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 15:32:31,614 DEBUG [com.infostretch.automation.testng.pro.QAFResultListener] onstart testContext: start
+[main] 15:32:31,650 DEBUG [com.infostretch.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setupSuit
+[main] 15:32:31,650 DEBUG [com.infostretch.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setupSuit - com.infostretch.automation.ui is test:false
+[main] 15:32:31,650 DEBUG [com.infostretch.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 15:32:31,651 DEBUG [com.infostretch.automation.testng.pro.QAFMethodInterceptor] Method Order interceptor called
+[main] 15:32:31,655 DEBUG [com.infostretch.automation.testng.pro.QAFMethodInterceptor] Method Order interceptor called
+[main] 15:32:31,657 DEBUG [com.infostretch.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setup
+[main] 15:32:31,658 DEBUG [com.infostretch.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setup - com.infostretch.automation.ui is test:false
+[main] 15:32:31,658 DEBUG [com.infostretch.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 15:32:31,661 DEBUG [com.infostretch.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setupMethod
+[main] 15:32:31,661 INFO  [com.infostretch.automation.core.QAFTestBase] Executing: scenario
+[main] 15:32:31,662 DEBUG [com.infostretch.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setupMethod - com.infostretch.automation.ui is test:false
+[main] 15:32:31,662 DEBUG [com.infostretch.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 15:32:31,662 DEBUG [com.infostretch.automation.testng.pro.QAFResultListener] onTestStart: start
+[main] 15:32:31,662 DEBUG [com.infostretch.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: Add New Contact
+[main] 15:32:31,725 INFO  [com.infostretch.automation.core.QAFTestBase] Initializing Driver...browser_str:appiumDriver,base_url:http://localhost:4723/wd/hub,sel_server:localhost,port:4723
+[main] 15:32:31,725 INFO  [com.infostretch.automation.core.QAFTestBase] Executing: scenario
+[main] 15:32:31,754 INFO  [com.infostretch.automation.ui.UiDriverFactory] browser: appiumDriver
+[Forwarding newSession on session null to remote] 15:32:33,230 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: best-match
+[Forwarding newSession on session null to remote] 15:32:33,248 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding newSession on session null to remote] 15:32:33,250 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:4723][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+[Forwarding newSession on session null to remote] 15:32:33,719 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding newSession on session null to remote] 15:32:33,721 DEBUG [org.apache.http.impl.execchain.MainClientExec] Opening connection {}->http://localhost:4723
+[Forwarding newSession on session null to remote] 15:32:33,722 DEBUG [org.apache.http.impl.conn.HttpClientConnectionOperator] Connecting to localhost/127.0.0.1:4723
+[Forwarding newSession on session null to remote] 15:32:34,772 DEBUG [org.apache.http.impl.conn.HttpClientConnectionOperator] Connect to localhost/127.0.0.1:4723 timed out. Connection will be retried using another IP address
+[Forwarding newSession on session null to remote] 15:32:34,773 DEBUG [org.apache.http.impl.conn.HttpClientConnectionOperator] Connecting to localhost/0:0:0:0:0:0:0:1:4723
+[Forwarding newSession on session null to remote] 15:32:35,785 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: Shutdown connection
+[Forwarding newSession on session null to remote] 15:32:35,786 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection discarded
+[Forwarding newSession on session null to remote] 15:32:35,786 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: Close connection
+[Forwarding newSession on session null to remote] 15:32:35,787 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:4723][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+[main] 15:32:35,851 DEBUG [com.infostretch.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Add New Contact - com.infostretch.automation.step.client is test:true
+[main] 15:32:35,851 DEBUG [com.infostretch.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 15:32:36,199 DEBUG [com.infostretch.automation.testng.report.ReporterUtil] method:  result: skip groups: [Ljava.lang.String;@31012d26
+[main] 15:32:36,363 DEBUG [com.infostretch.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: afterMethod
+[main] 15:32:36,363 DEBUG [com.infostretch.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: afterMethod - com.infostretch.automation.ui is test:false
+[main] 15:32:36,363 DEBUG [com.infostretch.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 15:32:36,364 DEBUG [com.infostretch.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: afterClass
+[main] 15:32:36,364 DEBUG [com.infostretch.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: afterClass - com.infostretch.automation.ui is test:false
+[main] 15:32:36,364 DEBUG [com.infostretch.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 15:32:36,365 DEBUG [com.infostretch.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: afterTest
+[main] 15:32:36,365 DEBUG [com.infostretch.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: afterTest - com.infostretch.automation.ui is test:false
+[main] 15:32:36,366 DEBUG [com.infostretch.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 15:32:36,485 DEBUG [com.infostretch.automation.testng.pro.QAFResultListener] onfinish testcntext: start
+[main] 15:32:36,502 DEBUG [com.infostretch.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: afterSuit
+[main] 15:32:36,512 DEBUG [com.infostretch.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: afterSuit - com.infostretch.automation.ui is test:false
+[main] 15:32:36,512 DEBUG [com.infostretch.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 15:32:36,512 DEBUG [com.infostretch.automation.testng.pro.QAFSuiteListener] onFinish: start
+[main] 15:32:36,518 DEBUG [com.infostretch.automation.testng.pro.QAFSuiteListener] onFinish: done

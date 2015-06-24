@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user opens contact manager</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And open add contact screen</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And generate random contact data</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And store into new.contact</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When fill contact details form with [phone : (577) 088 5424,email : fn6BD@infostretch.com,name : pBhKLe]</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And click on save button</div><div  class="teststepfail"><span class="teststepfail-label">T </span>Then verify contact [phone : (577) 088 5424,email : fn6BD@infostretch.com,name : pBhKLe] is displayed in list</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>null</div></div></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="QAS Demo" duration-ms="85307" started-at="2015-06-18T10:04:02Z" finished-at="2015-06-18T10:05:28Z">
+    <groups>
+      <group name="SMOKE">
+        <method signature="M:\JenkinsDemo\AppiumContactManagerDemo\AppiumDemoContactManager\.\scenarios\suite1.bdd.Add New Contact()[pri:1000, instance:com.infostretch.automation.step.client.Scenario@3e8]" name="Add New Contact" class="com.infostretch.automation.step.client.Scenario"/>
+      </group> <!-- SMOKE -->
+    </groups>
+    <test name="Appium Contact Manager" duration-ms="85307" started-at="2015-06-18T10:04:02Z" finished-at="2015-06-18T10:05:28Z">
+      <class name="com.infostretch.automation.step.client.Scenario">
+        <test-method status="PASS" signature="setupSuit(java.lang.String, java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.infostretch.automation.step.client.Scenario@3e8]" name="setupSuit" is-config="true" duration-ms="39" started-at="2015-06-18T15:34:02Z" finished-at="2015-06-18T15:34:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[org.testng.TestRunner@1a4d101a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setupSuit(java.lang.String, java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.infostretch.automation.step.client.Scenario@3e8]" name="setupSuit" is-config="true" duration-ms="1" started-at="2015-06-18T15:34:03Z" finished-at="2015-06-18T15:34:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[org.testng.TestRunner@1a4d101a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.infostretch.automation.step.client.Scenario@3e8]" test-instance-name="Add New Contact" name="setup" is-config="true" duration-ms="2" started-at="2015-06-18T15:34:03Z" finished-at="2015-06-18T15:34:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[org.testng.TestRunner@1a4d101a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="Add New Contact()[pri:1000, instance:com.infostretch.automation.step.client.Scenario@3e8]" test-instance-name="Add New Contact" name="Add New Contact" duration-ms="85050" started-at="2015-06-18T15:34:03Z" description="Add Contact and Verify" finished-at="2015-06-18T15:35:28Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.infostretch.automation.testng.basic.QAFTestNGListener.processResult(SourceFile:284)
+	at com.infostretch.automation.testng.basic.QAFTestNGListener.afterInvocation(SourceFile:205)
+	at com.infostretch.automation.testng.pro.IsTestNGListener.afterInvocation(SourceFile:185)
+	at org.testng.internal.invokers.InvokedMethodListenerInvoker$InvokeAfterInvocationWithContextStrategy.callMethod(InvokedMethodListenerInvoker.java:108)
+	at org.testng.internal.invokers.InvokedMethodListenerInvoker$InvokeAfterInvocationWithContextStrategy.callMethod(InvokedMethodListenerInvoker.java:104)
+	at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:62)
+	at org.testng.internal.Invoker.runInvokedMethodListeners(Invoker.java:619)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:777)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(SourceFile:786)
+	at org.testng.TestRunner.run(SourceFile:631)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user opens contact manager</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And open add contact screen</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And generate random contact data</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And store into new.contact</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When fill contact details form with [phone : (577) 088 5424,email : fn6BD@infostretch.com,name : pBhKLe]</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And click on save button</div><div  class="teststepfail"><span class="teststepfail-label">T </span>Then verify contact [phone : (577) 088 5424,email : fn6BD@infostretch.com,name : pBhKLe] is displayed in list</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>null</div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Add New Contact -->
+        <test-method status="PASS" signature="setupMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.infostretch.automation.step.client.Scenario@3e8]" test-instance-name="Add New Contact" name="setupMethod" is-config="true" duration-ms="1" started-at="2015-06-18T15:34:03Z" finished-at="2015-06-18T15:34:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[public void com.infostretch.automation.step.client.Scenario.scenario()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.infostretch.automation.step.client.Scenario@3e8]" test-instance-name="Add New Contact" name="afterClass" is-config="true" duration-ms="4" started-at="2015-06-18T15:35:28Z" finished-at="2015-06-18T15:35:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1a4d101a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.infostretch.automation.step.client.Scenario@3e8]" name="afterTest" is-config="true" duration-ms="1" started-at="2015-06-18T15:35:28Z" finished-at="2015-06-18T15:35:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1a4d101a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:com.infostretch.automation.step.client.Scenario@3e8]" name="afterSuit" is-config="true" duration-ms="1914" started-at="2015-06-18T15:35:28Z" finished-at="2015-06-18T15:35:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1a4d101a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- com.infostretch.automation.step.client.Scenario -->
+    </test> <!-- Appium Contact Manager -->
+  </suite> <!-- QAS Demo -->
+</testng-results>

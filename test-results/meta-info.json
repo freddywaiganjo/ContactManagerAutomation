@@ -1,0 +1,24 @@
+{
+  "reports": [
+    {
+      "name": "QAS Demo",
+      "dir": "test-results/18_Jun_2015_04_04_PM/json",
+      "startTime": 1434623748043
+    },
+    {
+      "name": "QAS Demo",
+      "dir": "test-results/18_Jun_2015_03_53_PM/json",
+      "startTime": 1434623037262
+    },
+    {
+      "name": "QAS Demo",
+      "dir": "test-results/18_Jun_2015_03_33_PM/json",
+      "startTime": 1434621842876
+    },
+    {
+      "name": "QAS Demo",
+      "dir": "test-results/18_Jun_2015_03_31_PM/json",
+      "startTime": 1434621751468
+    }
+  ]
+}

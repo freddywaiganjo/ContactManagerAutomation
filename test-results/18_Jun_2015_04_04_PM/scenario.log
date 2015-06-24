@@ -1,0 +1,19 @@
+16:05:33 scenario.file.loc[Ljava.lang.String;@7957a65f
+16:05:33 loading text file: M:\JenkinsDemo\AppiumContactManagerDemo\AppiumDemoContactManager\.\scenarios\suite1.bdd
+16:05:33 total test found: 1
+16:05:48 
+
+Executing scenario: Add New Contact - Add Contact and Verify
+16:05:48 Invoking Teststep: Given user opens contact manager
+16:05:48 Completed Teststep: Given user opens contact manager
+16:05:48 Invoking Teststep: And open add contact screen
+16:06:11 Completed Teststep: And open add contact screen
+16:06:11 Invoking Teststep: And generate random contact data
+16:06:11 Completed Teststep: And generate random contact data
+16:06:12 Invoking Teststep: And store into new.contact with arguments: [new.contact]
+16:06:12 Completed Teststep: And store into new.contact with arguments: [new.contact]
+16:06:12 Invoking Teststep: When fill contact details form with ${new.contact} with arguments: [${new.contact}]
+16:06:35 Completed Teststep: When fill contact details form with [phone : (165) 076 3794,email : wmg3K@infostretch.com,name : RbzliE] with arguments: [${new.contact}]
+16:06:35 Invoking Teststep: And click on save button with arguments: [save button]
+16:06:37 Completed Teststep: And click on save button with arguments: [save button]
+16:06:37 Competed scenario: Add New Contact with status SUCESS
